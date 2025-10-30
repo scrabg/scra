@@ -15,3 +15,4 @@ test/
 frontend/dist
 frontend/node_modules
 */.env.prod
+*/.env.dev
