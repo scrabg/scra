@@ -9,6 +9,7 @@
     <img src="https://img.shields.io/badge/MySQL-≥8.0-blue">
 </p>
 
+
 ## 平台简介
 
 scra是一套基于RuoYi-Vue3-FastAPI开发的智能爬虫管理平台，专注于提供可视化的爬虫配置、管理和监控功能。
@@ -127,7 +128,11 @@ yarn dev
 - 前端地址：http://localhost:3200
 - 后端API：http://localhost:9099
 - 默认账号：admin / admin123
+### 实例地址
+https://demo.bgspider.com
 
+测试用户名、密码 spider1 / spider1
+测试逻辑未上线，仅有前后端交互功能，不保证功能完整性
 ## 使用指南
 
 ### 创建爬虫任务
@@ -146,7 +151,18 @@ yarn dev
    - 使用测试功能验证配置
    - 启动爬虫任务开始采集
    - 实时监控采集进度
-
+### 运行截图
+登录
+![运行截图](./doc/img/img.png)
+首页
+![运行截图](./doc/img/img_1.png)
+任务管理
+![运行截图](./doc/img/img_2.png)
+任务配置
+![运行截图](./doc/img/img_3.png)
+![运行截图](./doc/img/img_4.png)
+![运行截图](./doc/img/img_5.png)
+![运行截图](./doc/img/img_6.png)
 ### 配置示例
 开发阶段，仅限参考
 ```json

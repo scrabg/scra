@@ -1,0 +1,17 @@
+# ---> Vue
+# gitignore template for Vue.js projects
+#
+# Recommended template: Node.gitignore
+
+# TODO: where does this rule come from?
+docs/_book
+
+# TODO: where does this rule come from?
+test/
+*__pycache__/
+*logs/
+*.pyc
+.trae/*
+frontend/dist
+frontend/node_modules
+*/.env.prod
